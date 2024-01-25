@@ -1,0 +1,125 @@
+*{
+    font-family: "DM Sans", sans-serif;
+}
+
+body{
+    background-color: #000;
+}
+
+.sidebar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+
+.sidebar_navigation{
+    background-color: #121212;
+    padding: 16px 0 0 16px;
+    border-radius: 7px;
+}
+
+.sidebar_navigation .logo{
+    display: flex;
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar nav ul{
+    margin-top: 15px;
+    padding: 0px 20px 10px 20px;
+}
+
+.sidebar ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.logo img {
+    width: 80px;
+
+}
+
+.biblioteca{
+    padding: 4px 8px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    color: #b3b3b3;
+    font-weight: 600;
+    flex-direction: column;
+    background-color: #121212;
+    justify-content: space-between;
+    border-radius: 7px;    
+}
+
+.biblioteca .biblioteca_conteudo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.biblioteca .biblioteca_conteudo a{
+    color: #b3b3b3;
+}
+
+.biblioteca .biblioteca_button{
+    margin-right: 10px;
+    border: 0px;
+    color: #b3b3b3;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding:20px 10px;
+    border-bottom: none;
+}
+
+.biblioteca .biblioteca_button a{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.biblioteca .biblioteca_button a:hover{
+    color: #b3b3b3;
+    text-decoration: none;
+}
+
+.biblioteca .biblioteca_button .fa{
+    font-size: 20px;
+    margin-right: 30px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+.biblioteca .biblioteca_conteudo .fa-plus{
+    margin: 24px 10px;
+}
+
+.section-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #dddddd;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+}
+
+.section-playlist .section-conteudo-playlist span{
+    margin-right: 15px;
+    background-color: #242424;     
+    padding: 8px 10px;
+    border-radius: 15px;  
+}
