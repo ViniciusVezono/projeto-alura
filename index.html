@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets\style\reset.css">
+    <link rel="stylesheet" href="assets\style\sidebar.css">
+    <link rel="stylesheet" href="assets\style\main-content.css">
     <script src="https://kit.fontawesome.com/a3398452fc.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -52,5 +53,25 @@
             </section>
        </div>
     </div>
+
+    <main>
+        <div class="main-container">
+            <nav class="header_navigation">
+                <div class="navigation">
+                    <button class="seta_esquerda">
+                       <span><i class="fa-solid fa-arrow-left"></i></span>
+                    </button>
+                    <button class="seta_direita">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+                  <div class="barra-navegacao">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" name="" maxlength="800" id="input-search" 
+                    placeholder="O que você quer ouvir?">
+                </div>
+              </nav>  
+        </div>
+    </main>
 </body>
 </html>
