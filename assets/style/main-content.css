@@ -62,3 +62,34 @@
     outline: none;
 }
 
+.home-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #121212;   
+}  
+
+.home-page .texto {
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center;
+}
+
+.home-page .texto .titulo{
+    margin-right: 45rem;
+}
+
+.home-page .texto .titulo h1{
+    color: #d8d6d6;
+    font-weight: 700;
+}
+
+.home-page .texto .mostrar-tudo{
+    color: #858585;
+    font-size: 0.875rem;
+    font-weight: 650;
+}
+
